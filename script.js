@@ -24,7 +24,7 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from "https://www.gstati
     const token = credential.accessToken;
     const user = result.user;
     console.log(user);
-    window.location.href = "../loggedPage.html";
+    window.location.assign("./loggedPage.html");
   }).catch((error) => {
     const errorCode = error.code;
     const errorMessage = error.message;
