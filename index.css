@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: aliceblue;
+}
+
+.container {
+    max-width: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 1em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.welcome {
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 95%;
+    border-radius: 1em;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 1em;
+    border: 1px solid #ccc;
+}
+button:hover {
+    background-color: #4CAF50;
+    transition-duration: 1s;
+    color: #FFFFFF;
+}
+
+.sign-btn {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.google {
+    background-color: #EA4335;
+    color: white;
+}
+
+.footer {
+    margin-top: 20px;
+}
+.container:hover {
+    transform: translateY(-10);
+    transition: 1s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+        min-width: 300px;
+    }
+}
+.red {
+    color: red;
+}
+.sign-btn span {
+    margin-left: 5px;
+}
+.sign-btn i {
+    color: aliceblue;
+}
+
